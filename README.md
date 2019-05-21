@@ -6,3 +6,6 @@ Example:
 `python3 generate.py wasp.jpg`
 
 Requires [python 3](https://www.python.org/) and [imagemagick](https://imagemagick.org/).
+
+![command line screenshot](/images/generate.png)
+![generated AppIcon.appiconset](/images/output.png)
