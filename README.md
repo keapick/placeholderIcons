@@ -1,4 +1,8 @@
 # placeholderIcons
-Script to make the required image assets for an iOS app.   Placeholder quality!
+Creates iOS image assets from a source image.  Copy the generated AppIcon.appiconset directory into your app's Assets.xcassets directory.
 
-Uses imagemagick to create some reasonable placeholder icons for an iOS app.
+Example:
+
+`python3 generate.py wasp.jpg`
+
+Requires [python 3](https://www.python.org/) and [imagemagick](https://imagemagick.org/).
