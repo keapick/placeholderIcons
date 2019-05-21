@@ -7,7 +7,7 @@ def createImage(image, name, x, y):
      extent = str(x) + 'x' + str(y)
      resize = extent + '^'
      
-     subprocess.run(["magick", "convert", "-resize", resize, "-gravity", "center", "-extent", extent, image, name])
+     subprocess.run(["convert", "-resize", resize, "-gravity", "center", "-extent", extent, image, name])
 
 parser = argparse.ArgumentParser(description='Generate iOS icons using imagemagick')
 parser.add_argument('image')
