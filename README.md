@@ -1,5 +1,5 @@
 # placeholderIcons
-Creates a images of various sizes.
+Creates images of various sizes based on a json config.
 
 Requires [python 3](https://www.python.org/) and [imagemagick](https://imagemagick.org/).
 

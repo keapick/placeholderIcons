@@ -23,7 +23,7 @@ data = json.load(file)
 file.close()
 
 # create a square image
-squareImage = outputPath + "square.png"
+squareImage = outputPath + "1024x1024.png"
 createImage(args.image, squareImage, 1024, 1024)
 
 # create all the other images
